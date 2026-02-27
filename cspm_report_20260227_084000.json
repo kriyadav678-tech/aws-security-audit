@@ -1,0 +1,2142 @@
+{
+    "account_id": "407421831859",
+    "timestamp": "2026-02-27T08:40:00.259689",
+    "total_findings": 237,
+    "risk_score": 0,
+    "posture_score": 100,
+    "findings": [
+        {
+            "service": "IAM",
+            "resource": "IAM-MFA-001",
+            "severity": "for_localhost_testing",
+            "category": "IAM user without MFA enabled",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:12.169958"
+        },
+        {
+            "service": "IAM",
+            "resource": "IAM-MFA-001",
+            "severity": "shreya_useracc",
+            "category": "IAM user without MFA enabled",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:12.474690"
+        },
+        {
+            "service": "IAM",
+            "resource": "IAM-PASS-004",
+            "severity": "ACCOUNT",
+            "category": "No password policy configured",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:22.586246"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-HTTPS-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "Bucket does not enforce HTTPS access",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:25.736566"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-VERSION-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "Bucket does not have versioning enabled",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:26.088438"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-LOG-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "Bucket does not have access logging enabled",
+            "region": null,
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:33:26.365167"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-HTTPS-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "Bucket does not enforce HTTPS access",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:28.916681"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-VERSION-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "Bucket does not have versioning enabled",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:29.179405"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-LOG-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "Bucket does not have access logging enabled",
+            "region": null,
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:33:29.443753"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-HTTPS-001",
+            "severity": "config-bucket-407421831859",
+            "category": "Bucket does not enforce HTTPS access",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:32.055300"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-VERSION-001",
+            "severity": "config-bucket-407421831859",
+            "category": "Bucket does not have versioning enabled",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:32.324737"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-LOG-001",
+            "severity": "config-bucket-407421831859",
+            "category": "Bucket does not have access logging enabled",
+            "region": null,
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:33:32.613111"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-PUB-003",
+            "severity": "demos-file-12",
+            "category": "Bucket does not fully block public access",
+            "region": null,
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:33:34.434080"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-HTTPS-002",
+            "severity": "demos-file-12",
+            "category": "Bucket has no HTTPS enforcement policy",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:35.164560"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-VERSION-001",
+            "severity": "demos-file-12",
+            "category": "Bucket does not have versioning enabled",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:35.419178"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-LOG-001",
+            "severity": "demos-file-12",
+            "category": "Bucket does not have access logging enabled",
+            "region": null,
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:33:35.666208"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-PUB-001",
+            "severity": "juhis-bucket420",
+            "category": "Bucket has a public bucket policy",
+            "region": null,
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:33:37.026803"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-PUB-003",
+            "severity": "juhis-bucket420",
+            "category": "Bucket does not fully block public access",
+            "region": null,
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:33:37.481468"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-HTTPS-001",
+            "severity": "juhis-bucket420",
+            "category": "Bucket does not enforce HTTPS access",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:37.951206"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-VERSION-001",
+            "severity": "juhis-bucket420",
+            "category": "Bucket does not have versioning enabled",
+            "region": null,
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:33:38.207099"
+        },
+        {
+            "service": "S3",
+            "resource": "S3-LOG-001",
+            "severity": "juhis-bucket420",
+            "category": "Bucket does not have access logging enabled",
+            "region": null,
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:33:38.526304"
+        },
+        {
+            "service": "EC2",
+            "resource": "EC2-NET-001",
+            "severity": "sg-0152eaa2b2e6a48e1",
+            "category": "Security group open to world on port 22-80",
+            "region": "ap-south-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:33:39.584371"
+        },
+        {
+            "service": "EC2",
+            "resource": "EC2-IAM-001",
+            "severity": "i-07dda1747c03c1b45",
+            "category": "Instance has no IAM role attached",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:34:17.853151"
+        },
+        {
+            "service": "EC2",
+            "resource": "EC2-ENC-001",
+            "severity": "vol-0037bec5bc78832a8",
+            "category": "EBS volume not encrypted",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:34:18.260152"
+        },
+        {
+            "service": "EC2",
+            "resource": "EC2-IMDS-001",
+            "severity": "i-07dda1747c03c1b45",
+            "category": "Instance allows IMDSv1 (HttpTokens not required)",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:34:18.676463"
+        },
+        {
+            "service": "EC2",
+            "resource": "EC2-NET-003",
+            "severity": "i-07dda1747c03c1b45",
+            "category": "Instance using default security group",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:34:19.035870"
+        },
+        {
+            "service": "EC2",
+            "resource": "EC2-MON-001",
+            "severity": "i-07dda1747c03c1b45",
+            "category": "Detailed monitoring not enabled",
+            "region": "us-east-1",
+            "message": "LOW",
+            "timestamp": "2026-02-27T08:34:19.392828"
+        },
+        {
+            "service": "RDS",
+            "resource": "RDS-NET-001",
+            "severity": "database-1",
+            "category": "RDS instance is publicly accessible",
+            "region": "us-east-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:34:47.856234"
+        },
+        {
+            "service": "RDS",
+            "resource": "RDS-ENC-001",
+            "severity": "database-1",
+            "category": "RDS storage is not encrypted",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:34:49.347747"
+        },
+        {
+            "service": "RDS",
+            "resource": "RDS-BACKUP-001",
+            "severity": "database-1",
+            "category": "Backup retention is disabled",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:34:49.347983"
+        },
+        {
+            "service": "RDS",
+            "resource": "RDS-IAM-001",
+            "severity": "database-1",
+            "category": "IAM database authentication disabled",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:34:49.347988"
+        },
+        {
+            "service": "RDS",
+            "resource": "RDS-MON-001",
+            "severity": "database-1",
+            "category": "Enhanced monitoring disabled",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:34:49.347991"
+        },
+        {
+            "service": "RDS",
+            "resource": "RDS-PROT-001",
+            "severity": "database-1",
+            "category": "Deletion protection disabled",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:34:49.347993"
+        },
+        {
+            "service": "RDS",
+            "resource": "RDS-HA-001",
+            "severity": "database-1",
+            "category": "Multi-AZ deployment not enabled",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:34:49.347995"
+        },
+        {
+            "service": "RDS",
+            "resource": "RDS-LOG-001",
+            "severity": "database-1",
+            "category": "Database logging disabled in parameter group",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:34:50.459391"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "ap-south-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:34:56.555384"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "eu-north-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:34:57.611719"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "eu-west-3",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:34:58.538314"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "eu-west-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:34:59.414851"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "eu-west-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:00.326987"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "ap-northeast-3",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:01.220647"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "ap-northeast-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:02.057309"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "ap-northeast-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:02.899496"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "ca-central-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:04.032716"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "sa-east-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:05.648354"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "ap-southeast-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:06.217089"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "ap-southeast-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:07.579892"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "eu-central-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:08.520512"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-INTEG-001",
+            "severity": "demo-131-trail",
+            "category": "Log file validation not enabled",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:10.000834"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-EVT-001",
+            "severity": "demo-131-trail",
+            "category": "Management events not logged",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:10.273935"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-EVT-002",
+            "severity": "demo-131-trail",
+            "category": "Data events not logged",
+            "region": "us-east-1",
+            "message": "LOW",
+            "timestamp": "2026-02-27T08:35:10.540814"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-LOG-001",
+            "severity": "demo-131-trail",
+            "category": "CloudTrail not integrated with CloudWatch Logs",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:35:11.912195"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-INTEG-001",
+            "severity": "management-events",
+            "category": "Log file validation not enabled",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:12.199980"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-EVT-001",
+            "severity": "management-events",
+            "category": "Management events not logged",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:12.467627"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-EVT-002",
+            "severity": "management-events",
+            "category": "Data events not logged",
+            "region": "us-east-1",
+            "message": "LOW",
+            "timestamp": "2026-02-27T08:35:12.750176"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-LOG-001",
+            "severity": "management-events",
+            "category": "CloudTrail not integrated with CloudWatch Logs",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:35:14.279201"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "us-east-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:15.469574"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "us-west-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:16.763842"
+        },
+        {
+            "service": "CLOUDTRAIL",
+            "resource": "CT-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "No CloudTrail trails found in region",
+            "region": "us-west-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:35:18.130763"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:20.742640"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:22.199868"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:23.659250"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:25.132886"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:26.298317"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-north-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:29.991034"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-north-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:31.320721"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-north-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:32.797189"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-north-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:34.179610"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-north-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:35.403107"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:39.892966"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:41.142220"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:42.516539"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:43.792278"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:44.975224"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:49.295646"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:50.567811"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:51.941347"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:53.193699"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:54.496620"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:35:58.850561"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:00.219709"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:01.495187"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:02.770483"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:03.894799"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:08.152036"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:09.520923"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:10.914235"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:12.089288"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:13.281235"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:17.227939"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:18.487343"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:19.736543"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:20.954294"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:22.088620"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:26.071784"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:27.289359"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:28.639312"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:29.892185"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-northeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:30.991236"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ca-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:35.211420"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ca-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:36.365916"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ca-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:37.747799"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ca-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:38.983382"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ca-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:40.140809"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "sa-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:45.358362"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "sa-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:46.609270"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "sa-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:48.047949"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "sa-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:49.417754"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "sa-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:50.587610"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:56.215138"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:57.373049"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:58.669251"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:36:59.822450"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:00.932681"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:04.341982"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:05.503294"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:06.720550"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:07.911740"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "ap-southeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:09.116131"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:13.488457"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:14.725413"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:16.100234"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:17.670924"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "eu-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:19.070558"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-ROT-001",
+            "severity": "5a152092-ba9d-44b8-b739-2816598dc8f5",
+            "category": "Key rotation disabled",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:23.864673"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-USAGE-002",
+            "severity": "5a152092-ba9d-44b8-b739-2816598dc8f5",
+            "category": "Key has never been used",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:37:23.864682"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-META-001",
+            "severity": "5a152092-ba9d-44b8-b739-2816598dc8f5",
+            "category": "Key has no description",
+            "region": "us-east-1",
+            "message": "LOW",
+            "timestamp": "2026-02-27T08:37:24.152619"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-ROT-001",
+            "severity": "mrk-9db66d19fbcb436d9343bfdbbf4f0ca1",
+            "category": "Key rotation disabled",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:24.714696"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-USAGE-002",
+            "severity": "mrk-9db66d19fbcb436d9343bfdbbf4f0ca1",
+            "category": "Key has never been used",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:37:24.714706"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-META-001",
+            "severity": "mrk-9db66d19fbcb436d9343bfdbbf4f0ca1",
+            "category": "Key has no description",
+            "region": "us-east-1",
+            "message": "LOW",
+            "timestamp": "2026-02-27T08:37:25.071589"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:26.838599"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:28.063823"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:29.341244"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:30.697843"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:31.916617"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:37.141022"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:38.429536"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:39.844868"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:41.254363"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-east-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:42.513263"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:49.398803"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:50.722122"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:52.075546"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:53.383686"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:37:54.618973"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-149b2fe3",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:00.181076"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "aws-cloudtrail-logs-407421831859-371d240c",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:01.441358"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "config-bucket-407421831859",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:02.741626"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "demos-file-12",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:03.906425"
+        },
+        {
+            "service": "KMS",
+            "resource": "KMS-SVC-001",
+            "severity": "juhis-bucket420",
+            "category": "S3 bucket uses AWS-managed encryption (not CMK)",
+            "region": "us-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:05.105279"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-001",
+            "severity": "subnet-0b2507c1272512f6f",
+            "category": "Subnet has route to Internet Gateway",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:09.441223"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-001",
+            "severity": "subnet-0fa3b90ca7be5c539",
+            "category": "Subnet has route to Internet Gateway",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:09.441233"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-002",
+            "severity": "sg-0152eaa2b2e6a48e1",
+            "category": "Security Group allows 0.0.0.0/0 on port 22",
+            "region": "ap-south-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:38:09.666177"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-03be9ba4b98073564",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:09.865207"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-00e62aff6c13ca3d0",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:09.865217"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:09.964537"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-05b6e5150ae8afd20",
+            "category": "Default VPC is active",
+            "region": "ap-south-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:10.492420"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0ee0a6de3681ad2f1",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "eu-north-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:12.464160"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "eu-north-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:13.331222"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-099a15bb7a03bb788",
+            "category": "Default VPC is active",
+            "region": "eu-north-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:14.171240"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0f7ca8e86dd447c5b",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "eu-west-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:16.431076"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "eu-west-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:16.676038"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-00e0996158e81da7c",
+            "category": "Default VPC is active",
+            "region": "eu-west-3",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:17.492602"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0efc6a605295fcc0d",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "eu-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:19.622887"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "eu-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:19.931455"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-04091671ae553a684",
+            "category": "Default VPC is active",
+            "region": "eu-west-2",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:20.729868"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0c57bd37153a2a60b",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "eu-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:22.983612"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "eu-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:23.253424"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-03ef5336915fc062b",
+            "category": "Default VPC is active",
+            "region": "eu-west-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:24.094594"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-064464f229397108b",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "ap-northeast-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:26.437706"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "ap-northeast-3",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:26.649059"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-05a405c8433c30866",
+            "category": "Default VPC is active",
+            "region": "ap-northeast-3",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:27.397920"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0bd78cbd19b50bcd0",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "ap-northeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:29.405697"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "ap-northeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:29.615117"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-0e9aef80de58aa72e",
+            "category": "Default VPC is active",
+            "region": "ap-northeast-2",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:30.325540"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0c139ccde514ec195",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "ap-northeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:32.389466"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "ap-northeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:32.636587"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-0637593e75b9106c9",
+            "category": "Default VPC is active",
+            "region": "ap-northeast-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:33.424052"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0644ab0266344feb0",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "ca-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:36.342650"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "ca-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:36.671873"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-0165d04a5ffe62266",
+            "category": "Default VPC is active",
+            "region": "ca-central-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:37.778691"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-061f3c394905ad54c",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "sa-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:41.344940"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "sa-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:41.768714"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-08b7fcd819e25fe1c",
+            "category": "Default VPC is active",
+            "region": "sa-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:43.121969"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-02c3c166e05eb20e4",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "ap-southeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:45.179973"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "ap-southeast-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:45.322252"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-01a4fd7353958db0f",
+            "category": "Default VPC is active",
+            "region": "ap-southeast-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:45.897775"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0488e5c542c65cf57",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "ap-southeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:47.958876"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "ap-southeast-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:48.319756"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-0943f52879b0ff5a7",
+            "category": "Default VPC is active",
+            "region": "ap-southeast-2",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:49.223726"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-067f2f8aab7329a3f",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "eu-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:51.802738"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "eu-central-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:52.130329"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-09f2720846b3f0cbb",
+            "category": "Default VPC is active",
+            "region": "eu-central-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:53.033942"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0dfdbbbb561a05706",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:56.160327"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-0a9925adb0feb91c5",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:56.160335"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:38:56.469652"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-DNS-001",
+            "severity": "vpc-0e454ce5f64378168",
+            "category": "VPC DNS hostnames not enabled",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:57.170393"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-09ff17baebaaa2706",
+            "category": "Default VPC is active",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:58.849324"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-IP-001",
+            "severity": "52.20.53.236",
+            "category": "Elastic IP not associated",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:38:59.272343"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-01fe3507199b10c3b",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "us-east-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:01.702383"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "us-east-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:01.990630"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-0db641141080f4e7c",
+            "category": "Default VPC is active",
+            "region": "us-east-2",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:39:03.000074"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-068b6b4d20dec5d35",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "us-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:06.283403"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "us-west-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:06.886934"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-03348907f6545f860",
+            "category": "Default VPC is active",
+            "region": "us-west-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:39:07.957754"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-NET-003",
+            "severity": "acl-01db704d195bb50fb",
+            "category": "NACL allows inbound 0.0.0.0/0",
+            "region": "us-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:11.596927"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-LOG-001",
+            "severity": "ACCOUNT",
+            "category": "No VPC Flow Logs enabled",
+            "region": "us-west-2",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:11.961964"
+        },
+        {
+            "service": "VPC",
+            "resource": "VPC-CONFIG-001",
+            "severity": "vpc-0e64683acda80328e",
+            "category": "Default VPC is active",
+            "region": "us-west-2",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:39:13.189453"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-002",
+            "severity": "ACCOUNT",
+            "category": "Config recorder not actively recording",
+            "region": "ap-south-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:15.104502"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-REC-001",
+            "severity": "ACCOUNT",
+            "category": "Config not recording all supported resource types",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:15.284541"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-COMP-001",
+            "severity": "ACCOUNT",
+            "category": "No conformance packs deployed",
+            "region": "ap-south-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:15.405694"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-AGG-001",
+            "severity": "ACCOUNT",
+            "category": "No Config aggregators configured",
+            "region": "ap-south-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:39:15.766782"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-SNS-001",
+            "severity": "ACCOUNT",
+            "category": "No SNS topic configured for Config notifications",
+            "region": "ap-south-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:39:17.235287"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-SNAP-001",
+            "severity": "ACCOUNT",
+            "category": "No snapshot delivery frequency configured",
+            "region": "ap-south-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:39:17.235295"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "eu-north-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:18.440660"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "eu-west-3",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:19.489169"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "eu-west-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:20.431018"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "eu-west-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:21.545805"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "ap-northeast-3",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:22.485833"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "ap-northeast-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:23.392907"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "ap-northeast-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:24.371721"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "ca-central-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:25.714905"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "sa-east-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:27.494788"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "ap-southeast-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:28.189190"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "ap-southeast-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:31.195118"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "eu-central-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:32.833849"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-REC-001",
+            "severity": "ACCOUNT",
+            "category": "Config not recording all supported resource types",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:34.654837"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-COMP-001",
+            "severity": "ACCOUNT",
+            "category": "No conformance packs deployed",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:34.986967"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-RULE-001",
+            "severity": "ACCOUNT",
+            "category": "No AWS Config rules configured",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:35.315516"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-COMP-002",
+            "severity": "ACCOUNT",
+            "category": "No compliance evaluations available",
+            "region": "us-east-1",
+            "message": "HIGH",
+            "timestamp": "2026-02-27T08:39:35.616972"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-AGG-001",
+            "severity": "ACCOUNT",
+            "category": "No Config aggregators configured",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:39:35.947790"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-SNS-001",
+            "severity": "ACCOUNT",
+            "category": "No SNS topic configured for Config notifications",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:39:37.233800"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-SNAP-001",
+            "severity": "ACCOUNT",
+            "category": "No snapshot delivery frequency configured",
+            "region": "us-east-1",
+            "message": "MEDIUM",
+            "timestamp": "2026-02-27T08:39:37.233809"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "us-east-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:38.884811"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "us-west-1",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:40.290865"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-CORE-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in region",
+            "region": "us-west-2",
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:39:41.732914"
+        },
+        {
+            "service": "AWS_CONFIG",
+            "resource": "CFG-REG-001",
+            "severity": "ACCOUNT",
+            "category": "AWS Config not enabled in regions: eu-north-1, eu-west-3, eu-west-2, eu-west-1, ap-northeast-3, ap-northeast-2, ap-northeast-1, ca-central-1, sa-east-1, ap-southeast-1, ap-southeast-2, eu-central-1, us-east-2, us-west-1, us-west-2",
+            "region": null,
+            "message": "CRITICAL",
+            "timestamp": "2026-02-27T08:40:00.254155"
+        }
+    ]
+}
